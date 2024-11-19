@@ -107,12 +107,12 @@
 
     </style>
 
-    <title>Calculadora | Plano de Saúde</title>
+    <title>Calculadora | Seguro de Saúde</title>
 </head>
 
 <body>
     <div class="container">
-        <h2>Valor Anual do Plano</h1>
+        <h2>Calcule o valor de seu seguro</h1>
 
         <!-- Formulário para coletar dados do usuário -->
         <form method="POST">
@@ -177,7 +177,7 @@
                 <p><strong>Altura:</strong> {{ resultado.altura }}</p>
                 <p><strong>Peso:</strong> {{ resultado.peso }}</p>
                 <p><strong>IMC:</strong> {{ resultado.imc }}</p>
-                <p><strong>Valor anual do plano de saúde:</strong> R$ {{ resultado.classificacao }}</p>
+                <p><strong>Valor anual do seguro de saúde:</strong> R$ {{ resultado.classificacao }}</p>
             </div>
         {% endif %}
     </div>
